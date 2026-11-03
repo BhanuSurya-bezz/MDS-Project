@@ -3,5 +3,5 @@
 window.TEAM_INFO = window.TEAM_INFO || {};
 window.TEAM_INFO["team13"] = {
   name: "Team 13",
-  topic: "Data Speaks!!"
+  topic: "100 years of Spotify data: transitions, trends and tribes"
 };
