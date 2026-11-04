@@ -51,6 +51,11 @@
     <h2>Dataset</h2>
     <p>The raw data contains 240,000 artwork records from the Harvard Art Museums collection with 68 attributes. The most important fields are the classification, culture, century and department of each artwork, its creation dates, its accession year and method, its image and people counts, its verification level and its total page views.</p>
     <p>During cleaning, 13 columns with more than 80% missing values were removed, along with redundant identifiers, contact information, nested JSON fields and URL fields, reducing the data from 68 to 44 columns. Six new features were then engineered. The data contained no duplicate rows or duplicate IDs, so no records were removed.</p>
+    <ul>
+      <li><strong>Data source:</strong> Harvard Art Museums, Harvard University</li>
+      <li><strong>Museum:</strong> <a href="https://www.harvardartmuseums.org/">harvardartmuseums.org</a></li>
+      <li><strong>API documentation:</strong> <a href="https://github.com/harvardartmuseums/api-docs">github.com/harvardartmuseums/api-docs</a></li>
+    </ul>
 
     <h2>Approach</h2>
     <p>We moved from cleaning and exploration to supervised and unsupervised modelling in six steps:</p>
