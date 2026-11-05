@@ -39,6 +39,7 @@
     <p>Our goal is to predict the duration (in seconds) of a yellow-taxi trip in New York City, given only four coordinates (pickup/dropoff latitude and longitude) and a pickup timestamp. This is the task behind Kaggle's well-known "NYC Taxi Trip Duration" competition, re-framed here as a course project in applied linear algebra, graph theory and regression: can we substantially improve a plain linear model just by (a) engineering better geometric/temporal features, and (b) representing the city's road network as a graph and feeding its spectral structure into the regression?</p>
 
     <h2>Dataset</h2>
+<p class="dataset-source"><strong>Data source and reproducibility:</strong> <a href="https://github.com/suspatil01-crypto/MDS-Project/tree/main/teams/team16" target="_blank" rel="noopener noreferrer">View this team’s project data and files in the repository</a>. Use the original source or citation given on this page when available to verify provenance.</p>
     <p>We use the public Kaggle <em>NYC Taxi Trip Duration</em> dataset &mdash; about 1.46 million real yellow-taxi rides recorded between January and June 2016, with pickup/dropoff coordinates, pickup timestamp, passenger count, vendor ID, and the trip duration label.</p>
     <p>During cleaning we drop trips that are physically impossible (shorter than 60 seconds, longer than 24 hours, outside New York City, or with zero passengers) &mdash; only 0.89% of rows are removed. Because trip duration is heavily right-skewed, we transform the target with <em>y&prime; = log(1 + y)</em>, which turns it into a roughly bell-shaped distribution that a linear model can fit well.</p>
 
@@ -59,7 +60,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">MDS Project, IIT Dharwad</div>
+    <div class="wrap">Data Speaks!! · IIT Dharwad</div>
   </footer>
   <script src="../../assets/site.js" defer></script>
 </body>

@@ -41,6 +41,7 @@
     <p>This project follows a hybrid two-stage design. Stage 1 groups stations into behavioural archetypes with unsupervised learning. Stage 2 uses those archetypes to drive multi-horizon forecasts (1 to 30 days ahead), either with one model per cluster or with one global model that takes the cluster label as a feature.</p>
 
     <h2>Dataset</h2>
+<p class="dataset-source"><strong>Data source and reproducibility:</strong> <a href="https://github.com/suspatil01-crypto/MDS-Project/tree/main/teams/team01" target="_blank" rel="noopener noreferrer">View this team’s project data and files in the repository</a>. Use the original source or citation given on this page when available to verify provenance.</p>
     <p>US EPA Air Quality System (AQS) daily summary files for ozone (parameter 44201) and PM2.5 (parameter 88101), covering 2020 to May 2026. After keeping comparable measurement durations, valid dates and non-negative concentrations, and excluding exceptional-event records, the cleaned data has 2,345,874 ozone observations from 1,362 stations and 394,168 PM2.5 observations from 785 stations. The combined station-day panel has 2,589,427 rows across 1,888 stations.</p>
     <p>Key columns include station identifiers, date, latitude and longitude, arithmetic mean concentration, observation percent, sample duration and parameter code. Where a station-day has duplicate records, the one with the greatest observation percent is kept.</p>
 
@@ -61,7 +62,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">MDS Project, IIT Dharwad</div>
+    <div class="wrap">Data Speaks!! · IIT Dharwad</div>
   </footer>
   <script src="../../assets/site.js" defer></script>
 </body>
